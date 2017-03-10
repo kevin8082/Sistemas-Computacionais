@@ -11,7 +11,7 @@ void Relogio::entrada(void){
 }
 
 void Relogio::imprime(void){
-    printf("A hora é: %d:%d:%d\n",hora,min,sec);
+    printf("A hora é: %02d:%02d:%02d\n",hora,min,sec);
 }
 
 void Relogio::incrementa_1sec(void){

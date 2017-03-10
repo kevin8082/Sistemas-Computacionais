@@ -10,6 +10,6 @@ class Relogio {
         void entrada(void);
         void imprime(void);
         void incrementa_1sec(void);
-}
+};
 
 #endif // RELOGIO_H

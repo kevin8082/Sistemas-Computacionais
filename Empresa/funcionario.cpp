@@ -1,5 +1,9 @@
 #include "funcionario.h"
 
+Funcionario::Funcionario(){
+
+}
+
 char * Funcionario::getNome(){
     Return nome;
 }

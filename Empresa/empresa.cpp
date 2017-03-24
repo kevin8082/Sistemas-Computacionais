@@ -1,5 +1,9 @@
 #include "empresa.h"
 
+Empresa::Empresa(){
+
+}
+
 char * Empresa::getNome(){
     Return nome;
 }

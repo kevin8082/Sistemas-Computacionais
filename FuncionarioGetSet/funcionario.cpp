@@ -35,9 +35,9 @@ void Funcionario::setData_Admissao(char * data_admissao){
 
 void Funcionario::imprime()
 {
-    getNome();
-    getSalario();
-    getSalario();
+    printf("Nome: %s\n", getNome());
+    printf("Salario: %d\n", getSalario());
+    printf("Data de Admissao: %s\n", getData_Admissao());
 }
 
 Funcionario::~Funcionario()

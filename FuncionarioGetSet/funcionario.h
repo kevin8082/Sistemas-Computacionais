@@ -13,9 +13,10 @@ public:
     char * getNome();
     void setNome(char *nome);
     int getSalario();
-    void setSalario(int *salario);
+    void setSalario(int salario);
     char * getData_Admissao();
     void setData_Admissao(char *data_admissao);
+    void imprime();
 };
 
 #endif // FUNCIONARIO_H

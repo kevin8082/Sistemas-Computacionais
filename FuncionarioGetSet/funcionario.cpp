@@ -21,8 +21,8 @@ int Funcionario::getSalario(){
     return salario;
 }
 
-void Funcionario::setSalario(int *salario){
-    this->salario,salario;
+void Funcionario::setSalario(int salario){
+    this->salario=salario;
 }
 
 char * Funcionario::getData_Admissao(){
@@ -31,6 +31,13 @@ char * Funcionario::getData_Admissao(){
 
 void Funcionario::setData_Admissao(char * data_admissao){
     strcpy(this->data_admissao,data_admissao);
+}
+
+void Funcionario::imprime()
+{
+    getNome();
+    getSalario();
+    getSalario();
 }
 
 Funcionario::~Funcionario()

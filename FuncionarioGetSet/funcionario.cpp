@@ -42,5 +42,5 @@ void Funcionario::imprime()
 
 Funcionario::~Funcionario()
 {
-    printf("Funcionario::Destrutor executado!\n");
+    printf("Funcionario Fulano encerrado!\n");
 }

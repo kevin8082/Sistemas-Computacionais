@@ -9,15 +9,15 @@ int main(int argc, char *argv[])
     char tempc[50];
     int tempi;
 
-    printf("Nome do funcionário: ");
-
+    printf("Nome do funcionario: ");
+    rewind(stdin);
     gets_s(tempc);
     x.setNome(tempc);
-    printf("Salário do funcionário: ");
+    printf("Salario do funcionario: ");
     scanf("%d",&tempi);
     x.setSalario(tempi);
-    printf("Data de Admissão do funcionário: ");
-
+    printf("Data de Admissao do funcionario: ");
+    rewind(stdin);
     gets_s(tempc);
     x.setData_Admissao(tempc);
 

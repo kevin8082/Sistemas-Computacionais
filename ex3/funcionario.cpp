@@ -6,7 +6,6 @@ Funcionario::Funcionario(){
     strcpy(nome,"");
     salario = 0;
     strcpy(data_admissao,"");
-    printf("Funcionario::Construtor executado!\n");
 }
 
 char *Funcionario::getNome(){
@@ -37,10 +36,10 @@ void Funcionario::imprime()
 {
     printf("Nome: %s\n", getNome());
     printf("Salario: R$%d\n", getSalario());
-    printf("Data de Admissao: %s\n", getData_Admissao());
+    printf("Data de Admissao: %s\n\n", getData_Admissao());
 }
 
 Funcionario::~Funcionario()
 {
-    printf("Funcionario %s encerrado!\n",getNome());
+
 }

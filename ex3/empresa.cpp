@@ -31,17 +31,18 @@ void Empresa::AdicionarFuncionario (Funcionario f){
 }
 
 void Empresa::ListarFuncionarios (){
-    printf("Funcionarios da Empresa:\n");
-    for (int i;i < 20;i++){
-        printf("Nome do Funcionario: %s",funcionarios[i].getNome());
+    printf("\nFuncionarios da Empresa:\n\n");
+    for (int i = 0;i < num_funcionarios ;i++){
+        funcionarios[i].imprime();
     }
 }
 
 void Empresa::ListarFuncionariosPorSalario (float piso){
-    printf("Funcionarios com salario acima de %f\n",piso);
-    for (int i;i < num_funcionarios;i++){
+    printf("\nFuncionarios com salario acima de %f\n\n",piso);
+    for (int i = 0;i < num_funcionarios;i++){
         if (funcionarios[i].getSalario() > piso){
-            printf("Nome do Funcionario: %s",funcionarios[i].getNome());
+            printf("Nome do Funcionario: %s\n",funcionarios[i].getNome());
+            printf("Salario do Funcionario: R$%d\n\n",funcionarios[i].getSalario());
         }
     }
 }

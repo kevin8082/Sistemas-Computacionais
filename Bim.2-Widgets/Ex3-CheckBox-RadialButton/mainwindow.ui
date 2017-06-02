@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>268</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QCheckBox" name="cbArroz">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Arroz 1Kg (R$ 2.40)</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbLeita">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Leita 1L (R$ 2.70)</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbCarne">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Carne 1Kg (R$ 18.90)</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cbCoca_Cola">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Coca-Cola 2L (R$ 4.50)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbCalcular">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calcular</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lwSoma">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>181</width>
+      <height>171</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>390</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

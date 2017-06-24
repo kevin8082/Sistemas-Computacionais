@@ -1,1 +1,3 @@
 builds/
+*.pro.user
+*.pro.user.*
